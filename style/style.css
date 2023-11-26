@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: lighter;
+    background-color: rgb(245, 245, 241);
+}
+
+header {
+    text-align: center;
+    margin: 4rem 0;
+}
+
+main {
+    padding: 5rem;
+}
+
+h1 {
+    margin-bottom: 3rem;
+    color: rgb(34, 33, 34);
+    font-size: 1.5rem;
+}
+
+.container-main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    width: calc(100% / 3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+article h2,
+article p {
+    margin-top: 1rem;
+}
+
